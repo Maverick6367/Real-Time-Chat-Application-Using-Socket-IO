@@ -1,0 +1,81 @@
+body{
+   background-color: rgb(135, 198, 119);
+}
+
+
+.container{
+    max-width: 800px;
+    border-radius: 0px 0px 30px 30px;
+    margin: auto;
+    background-color: rgb(38, 38, 38);
+    height: 83vh;
+    margin-top: 1vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 5px;
+}
+
+.message{
+    min-width: 4vw;
+    padding: 5px 15px 5px 15px;
+    margin: 12px 10px;
+    height: 6vh;
+    border-radius: 30px;
+    font-size: 2.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left{
+    float: left;
+    background-color: rgb(194, 70, 70);
+    clear:both;
+}
+
+.right{
+    float: right;
+    background-color: rgb(60, 200, 84);
+    clear:both;
+}
+
+#send-container{
+    display:block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#messageInp{
+    width: 69%;
+    border: none;
+    border-radius: 30px 0px 0px 30px;
+    height:6.5vh;
+    font-size: 22px;
+    padding-left: 10px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    outline: none;
+    font-size: 3vh;
+    
+}
+
+.btn{
+    margin: 0 5px;
+    width: 9%;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    border-radius: 0px 30px 30px 0px;
+    height:6.5vh;
+    font-size: 2.6vh;
+    transition: 0.25s;
+
+}
+.btn:hover{
+    background-color: rgb(23, 205, 23);
+}
